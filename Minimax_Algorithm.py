@@ -32,3 +32,15 @@ board=[[" "," "," " ],
        [" "," "," " ]]
 
 print_board(board)
+
+while True:
+    # human move
+    row=int(input("enter between 0-2"))
+    col=int(input("enter between 0-2"))
+    
+    if board[row][col]!=" ":
+        print("cell not emplty. retry")
+        continue
+    board[row][col]="0"
+    
+    
