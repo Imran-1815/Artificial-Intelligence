@@ -126,7 +126,8 @@ while True:
         break
     
     if is_full(board):
-        print("Draw")
+        print(" the game is draw")
+        
         break
 
 
